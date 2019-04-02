@@ -1,10 +1,10 @@
 body {
   color: rgb(65,75,86);
   font-family: arial;
-  margin: 0;
+  margin: 10;
 }
 
-h1, h2, h3 {
+h1, h2,h3 {
   text-align: center;
 }
 
@@ -17,6 +17,9 @@ h2 {
 h3 {
   font-size: 1.5em;
 }
+h4 {
+  font-size: 1.2em;
+}
 
 .header {
 width: 100%;
@@ -25,7 +28,8 @@ display: block;
 background-color:#10101010
 }
 
-img {
+img.d-block
+{
   display: flex;
   margin: 0 auto;
   padding: 20px;
@@ -47,17 +51,108 @@ ol {
   justify-content: space-evenly;
 }
 
-ul {
+ul.navbar-nav {
   list-style: none;
   display: flex;
 }
 
-li {
+li.nav-item {
   margin: 0 20px;
   transition: 0.6s ease;
 }
 /* Getting snazzy... */
-li:hover {
-  font-size: 1.2em;
-  transition: 0.6s ease;
+.nav-item:hover {
+}
+
+/*Maps styling*/
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/*Maps styling*/
+
+/*Input elemnts styling*/
+input[type=text], select, textarea{
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  float: none;
+
+}
+input[type=submit] {
+  background-color: #ccc;
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  float: none;
+
+
+}
+/*Input elemnts styling*/
+
+
+
+.contact-list{
+  box-sizing: border-box;
+}
+li.contact-list
+{
+  display: list-item;
+  text-align: left;
+  list-style: none;
+  margin: 10px 10px;
+  padding:10px 10px;
+
+}
+
+ .contact-page{
+  text-align: left;
+  margin: 0px 0px;
+  padding:0px 0px;
+}
+div.sign-up{
+  text-align: center;
+  margin: 50px 50px;
+  padding: 50px 50px;
+}
+
+#newsletter{
+margin: 20px 20px;
+padding: 20px 20px;
+}
+#enquiries{
+  margin: 20px 20px;
+  padding: 0px 0px;
+}
+
+#container-footer{
+  color:white;
+  background-color:black;
+
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 10px 10px;
+}
+#follow-us{
+text-align: right;
+margin: 0px 0px;
+padding: 20px 20px;
 }
