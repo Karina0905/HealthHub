@@ -1,11 +1,15 @@
 body {
   color: rgb(65,75,86);
-  font-family: arial;
-  margin: 10;
+  font-family: Playfair Display;
+  
+
+
 }
 
 h1, h2,h3 {
   text-align: center;
+  margin: 10px 10px;
+  padding: 0px 0px;
 }
 
 h1 {
@@ -31,15 +35,17 @@ background-color:#10101010
 img.d-block
 {
   display: flex;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0px auto;
+  padding: 0px;
   border-radius: 130px;
 }
 
-p {
-  width: 40%;
-  margin: 0 10vw 10vh 10vw;
-  font-size: 2em;
+#paragraph{
+  margin:0px 20px 20px 20px;
+  padding:20px 10px;
+  font-size: 22px;
+  text-align: center;
+
 }
 
 ol {
@@ -76,7 +82,7 @@ left:0;
 top:0;
 height:100%;
 width:100%;
-position:absolute;
+position: absolute;
 }
 /*Maps styling*/
 
@@ -92,8 +98,8 @@ input[type=text], select, textarea{
 
 }
 input[type=submit] {
-  background-color: #ccc;
-  color: black;
+  background-color: red;
+  color: white;
   padding: 12px 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
