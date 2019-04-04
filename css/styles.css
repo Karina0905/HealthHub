@@ -166,40 +166,32 @@ padding: 20px 20px;
 
 #structure{
   margin:0px 20px;
-  padding: 20px 20px;
+  padding: 10px 10px;
   font-size: 20px;
   text-align: center;
 }
 
-#structure2{
-  margin:20px 20px;
-  padding: 20px 20px;
-  font-size: 20px;
-}
-
-#structure3{
-  margin:20px 20px;
-  padding: 20px 20px;
-  font-size: 20px;
-}
 
 #structure4{
-  margin:20px 20px;
+  margin:10px 10px;
   padding: 10px 10px;
   font-size: 20px;
+  text-align: center;
 
 }
 #structure5{
-  margin:20px 20px;
+  margin:10px 10px;
   padding: 10px 10px;
   font-size: 20px;
+  text-align: center;
 
 }
 
 #structure6{
-  margin:20px 20px;
+  margin:10px 10px;
   padding: 10px 10px;
   font-size: 20px;
+  text-align: center;
 
 }
 /*  Hove effect */
